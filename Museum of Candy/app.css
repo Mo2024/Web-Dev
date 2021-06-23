@@ -1,7 +1,7 @@
 body {
     background: #f5d9d5;
     font-family: "Nunito", sans-serif;
-    height: 400vh;
+    height: 280vh;
 }
 
 .bg-dark{
@@ -30,5 +30,11 @@ p{
     font-weight: 100;
     font-size: 1.125rem;
     line-height: 2;
-    margin: -90px -10px;
+    margin: -90px 0;
+}
+
+.mt-10{
+    margin-top: 155px;
+
+
 }
