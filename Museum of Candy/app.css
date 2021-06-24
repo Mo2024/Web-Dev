@@ -13,16 +13,17 @@ body {
     background: rgb(222,192,222) !important;
     transition: 500ms;
 }
-nav,#thing{
+.nav,#thing{
     font-size: 1.5rem;
-    color: #EA1C2C;
+    color: #EA1C2C !important;
     font-weight: lighter;
 }
 
 h2{
-    margin: 100px 0;
+    margin: 100px 0 110px 0;
     font-weight: lighter;
     color: #EA1C2C;
+    
 }
 
 p{
@@ -33,10 +34,9 @@ p{
     margin: -90px 0;
 }
 
-.mt-10{
-    margin-top: 155px;
 
-
+.nav-link{
+    color: white !important;
 }
 span{
     color: #EA1C2C;
@@ -50,12 +50,29 @@ span{
 .lolli{
     margin-top: -100px;
 }
+ .pad{
+     margin-bottom: 70px;
+ }
 
-.pad{
-    margin-top: 0px !important;
-    padding: 0 200px;
-}
+/* @media (max-width: 768px){
+    .pad{
 
-.mt-6{
-    margin-top: 100px;
+    }
+} */
+
+
+@media (min-width: 768px){
+    .mt-6{
+        margin-top: 100px;
+    }
+    .pad{
+        margin-top: 0px !important;
+        padding: 0 100px;
+    margin-bottom: 0;
+
+    }
+    
+    h2{
+        margin: -200px 0 100px 0;
+    }
 }
