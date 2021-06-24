@@ -1,7 +1,7 @@
 body {
     background: #f5d9d5;
     font-family: "Nunito", sans-serif;
-    height: 280vh;
+    /* height: 280vh; */
 }
 
 .bg-dark{
@@ -37,4 +37,25 @@ p{
     margin-top: 155px;
 
 
+}
+span{
+    color: #EA1C2C;
+}
+
+.display-3{
+    font-size:65px;
+    font-weight: lighter;
+}
+
+.lolli{
+    margin-top: -100px;
+}
+
+.pad{
+    margin-top: 0px !important;
+    padding: 0 200px;
+}
+
+.mt-6{
+    margin-top: 100px;
 }
