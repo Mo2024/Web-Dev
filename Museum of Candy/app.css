@@ -50,8 +50,8 @@ span{
 .lolli{
     margin-top: -100px;
 }
- .pad{
-     margin-bottom: 70px;
+.pad{
+    margin-bottom: 70px;
  }
 
 /* @media (max-width: 768px){
@@ -61,7 +61,7 @@ span{
 } */
 
 
-@media (min-width: 768px){
+@media (min-width: 992px){
     .mt-6{
         margin-top: 100px;
     }
@@ -75,4 +75,16 @@ span{
     h2{
         margin: -200px 0 100px 0;
     }
+}
+
+@media (min-width:768px) {
+
+    h2{
+        padding: -10px;
+    }
+
+    .imgs{
+        margin-top: 100px;
+    }
+
 }
