@@ -43,7 +43,7 @@ span{
 }
 
 .display-3{
-    font-size:65px;
+    font-size:48px;
     font-weight: lighter;
 }
 
@@ -54,11 +54,18 @@ span{
     margin-bottom: 70px;
  }
 
-/* @media (max-width: 768px){
-    .pad{
+@media (min-width: 1200px){
 
+    .display-3{
+        font-size:70px;
     }
-} */
+
+    .imgs{
+        margin-top: 0px !important;
+    }
+
+
+}
 
 
 @media (min-width: 992px){
@@ -69,9 +76,7 @@ span{
         margin-top: 0px !important;
         padding: 0 100px;
     margin-bottom: 0;
-
     }
-    
     h2{
         margin: -200px 0 100px 0;
     }
