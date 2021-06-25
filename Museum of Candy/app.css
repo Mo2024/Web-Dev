@@ -48,8 +48,14 @@ span{
 }
 
 .lolli{
-    margin-top: -100px;
+    margin: -100px 0 0 0;
 }
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
 .pad{
     margin-bottom: 70px;
  }
@@ -57,16 +63,27 @@ span{
 @media (min-width: 1200px){
 
     .display-3{
-        font-size:70px;
+        font-size:65px;
     }
 
     .imgs{
         margin-top: 0px !important;
     }
 
+    .pad{
+    padding: 0 125px;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+    .con{
+        margin-top: -150px !important;
+    }
+
 
 }
-
 
 @media (min-width: 992px){
     .mt-6{
@@ -74,12 +91,14 @@ span{
     }
     .pad{
         margin-top: 0px !important;
-        padding: 0 100px;
-    margin-bottom: 0;
+        margin-bottom: 0;
     }
-    h2{
+    /* h2{
         margin: -200px 0 100px 0;
-    }
+    } */
+    /* .con{
+        margin-top: 300px;
+    } */
 }
 
 @media (min-width:768px) {
