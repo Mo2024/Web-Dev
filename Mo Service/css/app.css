@@ -1,0 +1,56 @@
+body {
+    background: #f5d9d5;
+    font-family: "Nunito", sans-serif;
+    height: 1000vh;
+}
+
+.bg-dark{
+    background: transparent !important;
+
+}
+
+.bg-dark.scrolled{
+    background: rgb(222,192,222) !important;
+    transition: 500ms;
+}
+.nav,#thing{
+    font-size: 1.5rem;
+    color: #EA1C2C !important;
+    font-weight: lighter;
+}
+
+.github:hover{
+    color: black !important;
+}
+
+.paypal:hover{
+    color: rgb(41,151,216) !important;
+}
+
+.discord:hover{
+    color: rgb(114, 137, 218) !important;
+}
+
+.reddit:hover{
+    color: rgb(255, 69, 0) !important;
+}
+
+i, .navbar-brand{
+    transition: color 200ms ease-in-out;
+    font-size: 30px;
+}
+
+.center-block {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+li{
+    padding: 0 100px 0 100px;
+}
+
+
+
+
