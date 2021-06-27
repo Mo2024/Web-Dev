@@ -1,14 +1,30 @@
 body {
     background: #f5d9d5;
     font-family: "Nunito", sans-serif;
-    height: 1000vh;
+    height: 130vh;
 }
 
 .bg-dark{
-    background: transparent !important;
+    /* background: transparent !important; */
+    background: rgb(222,192,222) !important;
+
 
 }
 
+.anch{
+    text-decoration: none !important;
+    border: 1px solid #f498b8;
+    padding: 10px;
+    background: none;
+    border-radius: 10px;
+    transition: 500ms;
+
+}
+
+.anch:hover{
+    background-color: #f498b8;
+    color: #EA1C2C;
+}
 .bg-dark.scrolled{
     background: rgb(222,192,222) !important;
     transition: 500ms;
@@ -28,7 +44,7 @@ body {
 }
 
 .discord:hover{
-    color: rgb(114, 137, 218) !important;
+    color: rgb(88, 101, 242) !important;
 }
 
 .reddit:hover{
@@ -40,17 +56,66 @@ i, .navbar-brand{
     font-size: 30px;
 }
 
+#but{
+    border: none;
+    background: none;
+    font-family: "Nunito", sans-serif;
+    text-decoration: underline;
+    text-decoration-thickness: from-font;
+}
 .center-block {
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    font-family: none;
 
 }
 
-li{
-    padding: 0 100px 0 100px;
+.uls{
+    margin: 10px 0 30px 0;
+    font-weight: lighter;
+    color: #EA1C2C;
+
+}
+h1{
+    margin: 100px 0 30px 0;
+    font-weight: lighter;
+    color: #EA1C2C;
+
 }
 
+.h11{
+    margin: 0 0 20px 0 !important;
+}
+
+p, .cls, #but, .anch{
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.3rem;
+    line-height: 2;
+    margin: 0 0;
+}
+
+.cls{
+    display: table;
+    margin: 0 auto;
+  }
 
 
 
+@media (min-width: 992px){
+    .cont{
+        padding: 0 100px 0 100px !important;
+    }
+        
+    p{
+        padding: 0 200px;
+    }
+}
+
+@media (min-width: 1200px){
+    
+    p{
+        padding: 0 200px;
+    }
+}

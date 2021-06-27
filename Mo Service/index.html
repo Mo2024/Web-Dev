@@ -24,26 +24,101 @@
         <div class="collapse navbar-collapse" id="navLinks">
             <ul class="navbar-nav mt-1 center-block">
                 <li class="nav-item">
-                    <a href="https://github.com/Mo2024" target="_blank" class="nav-link github"><i
+                    <a href="https://github.com/Mo2024" target="_blank" class="nav-link github cont"><i
                             class="fab fa-github"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a href="https://paypal.me/mrkvsbusiness" target="_blank" class="nav-link paypal"><i
+                    <a href="https://paypal.me/mrkvsbusiness" target="_blank" class="nav-link paypal cont"><i
                             class="fab fa-paypal"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a href="https://discord.gg/4G7CN5T8Ke" target="_blank" class="nav-link discord"><i
+                    <a href="https://discord.gg/4G7CN5T8Ke" target="_blank" class="nav-link discord cont"><i
                             class="fab fa-discord"></i></a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="https://www.reddit.com/user/_mkrfs" target="_blank" class="nav-link reddit"><i
+                    <a href="https://www.reddit.com/user/_mkrfs" target="_blank" class="nav-link reddit cont"><i
                             class="fab fa-reddit"></i></a>
                 </li>
             </ul>
     </nav>
 
+    <section class="container-fluid text-center">
+        <div class="">
+            <h1>About this site?</h1>
+            <p class="text-justify">This site is used as a portfolio to preview projects I have made to clients,
+                employers, and anyone who is
+                intersted in my work. I only recently made this site so there isn't much projects I've made at the
+                moment, but eventually there will be more projects that shows off my skills and knowledge. If you are
+                interested don't hesitate to contact me above in discord or reddit. If you don't have either of those
+                you can email me at <button id="but" onclick="copyToClipboard('#p1')" title="Copy to clipboard">
+                    <span id="p1">mohdosama2025@gmail.com</span>
+                </button>. (Click email to copy)
+            </p>
+        </div>
+    </section>
 
+    <section class="container-fluid ">
+        <div>
+            <h1 class="text-center">About Projects</h1>
+            <p class="text-justify text-center">So far projects I've made are only targeted towards web design with no
+                logic. I'm
+                very excellent at html, css and bootstrap. I know a bit of python espcially developing discord bots. If
+                you are intersted on examples of projects I've made you can check them out down below. Each button
+                represents a project I've made from my own knowledge.</p>
+
+
+            <ul class="cls">
+
+                <li class="uls">Current skills
+                    <ol class="cls">
+                        <li>Html</li>
+                        <li>Css</li>
+                        <li>A bit of Javascript</li>
+                        <li>A bit of Python</li>
+                    </ol>
+                </li>
+
+                <li class="uls">Skills coming soon
+                    <ol class="cls">
+                        <li>More of Javascript</li>
+                        <li>More of Python</li>
+                        <li>Wordpress</li>
+                        <li>Php</li>
+                        <li>Web database</li>
+                    </ol>
+                </li>
+
+
+            </ul>
+
+        </div>
+    </section>
+
+
+    <section class="container-fluid text-center">
+
+        <h1 class="h11">Projects</h1>
+
+        <div class="row align-items-center">
+
+
+
+            <div class="col-md-4 py-4"><a href="Hover Me Project/Hover Me.html" class="ancho" target="_blank"><button
+                        href="" class="anch">Hover Me
+                        Project (For pc only)</button></a></div>
+
+            <div class="col-md-4 py-4"><a href="Pricing Panel Project/index.html" class="ancho" target="_blank"><button
+                        href="" class="anch">Pricing
+                        Panel Project</button></a></div>
+
+            <div class="col-md-4 py-4"><a href="Museum of Candy/index.html" class="ancho" target="_blank"><button
+                        class="anch">Museum
+                        of Candy
+                        Project</button></a></div>
+
+        </div>
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -55,11 +130,20 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
     <script src="js/bootstrap.js"></script>
-    <script>
+    <script>function copyToClipboard(element) {
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val($(element).text()).select();
+            document.execCommand("copy");
+            $temp.remove();
+        }
+    </script>
+
+    <!-- <script>
         $(window).scroll(function () {
             $('nav').toggleClass('scrolled', $(this).scrollTop() > 200);
         });
-    </script>
+    </script> -->
 </body>
 
 </html>
