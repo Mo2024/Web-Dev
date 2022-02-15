@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/app.css">
+    <title>Mo</title>
+
+</head>
+
+<body>
+
+    <nav id="mainNavbar"
+        class="navbar nav py-0 px-3 navbar-fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top text-uppercase">
+        <a href="https://www.moservice.net/" class=" nav navbar-brand mt-1 ">Mo</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav mt-1 center-block">
+                <li class="nav-item">
+                    <a href="https://github.com/Mo2024" target="_blank" class="nav-link github cont"><i
+                            class="fab fa-github"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://paypal.me/mrkvsbusiness" target="_blank" class="nav-link paypal cont"><i
+                            class="fab fa-paypal"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://discord.gg/4G7CN5T8Ke" target="_blank" class="nav-link discord cont"><i
+                            class="fab fa-discord"></i></a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="https://www.reddit.com/user/_mkrfs" target="_blank" class="nav-link reddit cont"><i
+                            class="fab fa-reddit"></i></a>
+                </li>
+            </ul>
+    </nav>
+
+    <section class="container-fluid text-center">
+        <div class="">
+            <h1>About this site?</h1>
+            <p class="text-justify">This site is used as a portfolio to preview projects I have made for clients,
+                employers, and anyone who is
+                interested in my work. I have only recently made this site so there aren't more projects I've made
+                at the
+                moment, but eventually there will be more projects that show off my skills and knowledge. If you are
+                interested, don't hesitate to contact me above in Discord or Reddit. If you don't have either of those
+                you can email me at <button id="but" onclick="copyToClipboard('#p1')" title="Copy to clipboard">
+                    <span id="p1">mohdosama2025@gmail.com</span>
+                </button>.
+            </p>
+        </div>
+    </section>
+
+    <section class="container-fluid ">
+        <div>
+            <h1 class="text-center">About Projects</h1>
+            <p class="text-justify text-center">So far projects I've made are only targeted towards web design with no
+                logic. I'm
+                excellent at html, css and bootstrap. I know a bit of Python, especially developing Discord bots. If
+                you are intersted on examples of projects I've made, you can check them out down below. Each button
+                represents a project I've made from my own knowledge.</p>
+
+
+            <ul class="cls">
+
+                <li class="uls">Current skills
+                    <ol class="cls">
+                        <li>Html</li>
+                        <li>Css</li>
+                        <li>A bit of Javascript</li>
+                        <li>A bit of Python</li>
+                    </ol>
+                </li>
+
+                <li class="uls">Skills coming soon
+                    <ol class="cls">
+                        <li>More of Javascript</li>
+                        <li>More of Python</li>
+                        <li>Wordpress</li>
+                        <li>Php</li>
+                        <li>Web database</li>
+                    </ol>
+                </li>
+
+
+            </ul>
+
+        </div>
+    </section>
+
+
+    <section class="container-fluid text-center">
+
+        <h1 class="h11">Projects</h1>
+
+        <div class="row align-items-center">
+
+
+
+            <div class="col-md-4 py-4"><button onclick="location.href='/HoverMe'" class="anch">Hover Me
+                    Project (For pc only)</button></div>
+
+            <div class="col-md-4 py-4"><button onclick="location.href='/PricingPanelProject'" class="anch">Pricing
+                    Panel Project</button></div>
+
+            <div class="col-md-4 py-4"><button onclick="location.href='/MuseumOfCandy'" class="anch">Museum
+                    of Candy
+                    Project</button></div>
+
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <script>function copyToClipboard(element) {
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val($(element).text()).select();
+            document.execCommand("copy");
+            $temp.remove();
+        }
+    </script>
+
+    <!-- <script>
+        $(window).scroll(function () {
+            $('nav').toggleClass('scrolled', $(this).scrollTop() > 200);
+        });
+    </script> -->
+</body>
+
+</html>
